@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,10 @@
 		ED80786B2695AE3A00D7EC7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80786A2695AE3A00D7EC7E /* ContentView.swift */; };
 		ED80786D2695AE3D00D7EC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED80786C2695AE3D00D7EC7E /* Assets.xcassets */; };
 		ED8078702695AE3D00D7EC7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED80786F2695AE3D00D7EC7E /* Preview Assets.xcassets */; };
+		ED8078792695AE5700D7EC7E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8078782695AE5700D7EC7E /* TabBarView.swift */; };
+		ED80787C2695B07B00D7EC7E /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80787B2695B07B00D7EC7E /* TabButton.swift */; };
+		ED8078802695B5FA00D7EC7E /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = ED80787F2695B5FA00D7EC7E /* SwiftHEXColors */; };
+		ED8078832695B74300D7EC7E /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8078822695B74300D7EC7E /* CustomCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,9 @@
 		ED80786C2695AE3D00D7EC7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED80786F2695AE3D00D7EC7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED8078712695AE3D00D7EC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED8078782695AE5700D7EC7E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		ED80787B2695B07B00D7EC7E /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		ED8078822695B74300D7EC7E /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED8078802695B5FA00D7EC7E /* SwiftHEXColors in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +62,9 @@
 			children = (
 				ED8078682695AE3A00D7EC7E /* TabBar_MenuApp.swift */,
 				ED80786A2695AE3A00D7EC7E /* ContentView.swift */,
+				ED8078782695AE5700D7EC7E /* TabBarView.swift */,
+				ED80787B2695B07B00D7EC7E /* TabButton.swift */,
+				ED8078822695B74300D7EC7E /* CustomCorners.swift */,
 				ED80786C2695AE3D00D7EC7E /* Assets.xcassets */,
 				ED8078712695AE3D00D7EC7E /* Info.plist */,
 				ED80786E2695AE3D00D7EC7E /* Preview Content */,
@@ -85,6 +96,9 @@
 			dependencies = (
 			);
 			name = "TabBar Menu";
+			packageProductDependencies = (
+				ED80787F2695B5FA00D7EC7E /* SwiftHEXColors */,
+			);
 			productName = "TabBar Menu";
 			productReference = ED8078652695AE3A00D7EC7E /* TabBar Menu.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +126,9 @@
 				Base,
 			);
 			mainGroup = ED80785C2695AE3A00D7EC7E;
+			packageReferences = (
+				ED80787E2695B5FA00D7EC7E /* XCRemoteSwiftPackageReference "SwiftHEXColors" */,
+			);
 			productRefGroup = ED8078662695AE3A00D7EC7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED80786B2695AE3A00D7EC7E /* ContentView.swift in Sources */,
+				ED80787C2695B07B00D7EC7E /* TabButton.swift in Sources */,
+				ED8078792695AE5700D7EC7E /* TabBarView.swift in Sources */,
 				ED8078692695AE3A00D7EC7E /* TabBar_MenuApp.swift in Sources */,
+				ED8078832695B74300D7EC7E /* CustomCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +348,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED80787E2695B5FA00D7EC7E /* XCRemoteSwiftPackageReference "SwiftHEXColors" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thii/SwiftHEXColors.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED80787F2695B5FA00D7EC7E /* SwiftHEXColors */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED80787E2695B5FA00D7EC7E /* XCRemoteSwiftPackageReference "SwiftHEXColors" */;
+			productName = SwiftHEXColors;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED80785D2695AE3A00D7EC7E /* Project object */;
 }
