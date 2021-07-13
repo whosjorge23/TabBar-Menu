@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0922EE2698AB2000C0DCBE /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0922ED2698AB2000C0DCBE /* Home.swift */; };
 		ED8078692695AE3A00D7EC7E /* TabBar_MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8078682695AE3A00D7EC7E /* TabBar_MenuApp.swift */; };
 		ED80786B2695AE3A00D7EC7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80786A2695AE3A00D7EC7E /* ContentView.swift */; };
 		ED80786D2695AE3D00D7EC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED80786C2695AE3D00D7EC7E /* Assets.xcassets */; };
@@ -15,9 +16,11 @@
 		ED80787C2695B07B00D7EC7E /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80787B2695B07B00D7EC7E /* TabButton.swift */; };
 		ED8078802695B5FA00D7EC7E /* SwiftHEXColors in Frameworks */ = {isa = PBXBuildFile; productRef = ED80787F2695B5FA00D7EC7E /* SwiftHEXColors */; };
 		ED8078832695B74300D7EC7E /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8078822695B74300D7EC7E /* CustomCorners.swift */; };
+		EDC7E217269D7C5800CAD974 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC7E216269D7C5800CAD974 /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0922ED2698AB2000C0DCBE /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		ED8078652695AE3A00D7EC7E /* TabBar Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TabBar Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8078682695AE3A00D7EC7E /* TabBar_MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar_MenuApp.swift; sourceTree = "<group>"; };
 		ED80786A2695AE3A00D7EC7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		ED8078782695AE5700D7EC7E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		ED80787B2695B07B00D7EC7E /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		ED8078822695B74300D7EC7E /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		EDC7E216269D7C5800CAD974 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				ED8078682695AE3A00D7EC7E /* TabBar_MenuApp.swift */,
 				ED80786A2695AE3A00D7EC7E /* ContentView.swift */,
 				ED8078782695AE5700D7EC7E /* TabBarView.swift */,
+				EDC7E216269D7C5800CAD974 /* VideoView.swift */,
+				ED0922ED2698AB2000C0DCBE /* Home.swift */,
 				ED80787B2695B07B00D7EC7E /* TabButton.swift */,
 				ED8078822695B74300D7EC7E /* CustomCorners.swift */,
 				ED80786C2695AE3D00D7EC7E /* Assets.xcassets */,
@@ -156,9 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED80786B2695AE3A00D7EC7E /* ContentView.swift in Sources */,
+				EDC7E217269D7C5800CAD974 /* VideoView.swift in Sources */,
 				ED80787C2695B07B00D7EC7E /* TabButton.swift in Sources */,
 				ED8078792695AE5700D7EC7E /* TabBarView.swift in Sources */,
 				ED8078692695AE3A00D7EC7E /* TabBar_MenuApp.swift in Sources */,
+				ED0922EE2698AB2000C0DCBE /* Home.swift in Sources */,
 				ED8078832695B74300D7EC7E /* CustomCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
